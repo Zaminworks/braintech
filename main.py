@@ -70,7 +70,7 @@ for tool in tools:
         f"""
         <div style="display: flex; align-items: center; margin-bottom: 20px;">
             <img src="{tool['image']}" alt="{tool['name']}" style="width: 100px; height: auto; margin-right: 20px;">
-            <a href="{tool['file']}" target="_blank" style="font-size: 20px; text-decoration: none; color: white;">{tool['name']}</a>
+            <a href="{https://braintech.streamlit.app/tool['file']}" target="_blank" style="font-size: 20px; text-decoration: none; color: white;">{tool['name']}</a>
         </div>
         """,
         unsafe_allow_html=True
